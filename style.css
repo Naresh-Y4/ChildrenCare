@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #ffe4f0; 
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.t1 {
+  padding: 80px 20px;
+  background: #ff69b4;
+  color: white;
+  border-radius: 0 0 40px 40px;
+}
+.t1 h1 {
+  font-size: 2.5rem;
+}
+.t1 p {
+  font-size: 1.2rem;
+}
+section {
+  padding: 60px 20px;
+}
+h2 {
+  font-size: 2rem;
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  text-align: justify;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.price-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.price-table th, .price-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+.price-table th {
+  background: #ff69b4;
+  color: white;
+  font-size: 1.2rem;
+}
+.price-table tr:hover {
+  background: #fff0f5;
+}
+.price-table td:first-child {
+  font-weight: bold;
+  color: #d63384;
+}
+.contact p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+footer {
+  background: #ff69b4;
+  color: white;
+  padding: 15px 0;
+  border-radius: 40px 40px 0 0;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .price-table th, .price-table td {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+  .about p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+}
